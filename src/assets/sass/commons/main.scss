@@ -1,4 +1,43 @@
-*{
+// $backgroundBlack: linear-gradient(to right, #434343 0%, black 100%);
+$backgroundBlack: black;
+
+$fontColorWhite: #fff;
+$fontFamilyDefault: "Roboto", sans-serif;
+* {
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $backgroundBlack;
+  color: $fontColorWhite;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $fontFamilyDefault;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.footer-contain {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
 }

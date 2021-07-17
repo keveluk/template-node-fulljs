@@ -1,5 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.footer-contain {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+}
+
+.background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background--one .block-section--one {
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 32px;
+}
+
+.background--two {
+  background-size: contain;
+  background-repeat: round;
+  height: 100vh;
+  display: flex;
+}
+.background--two .block-section--two {
+  display: flex;
+  flex-direction: column;
+}
+.background--two .block-section--two .block-section--two--center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.background--two .block-section--two .block-section--two--center .text-block--two img {
+  margin: 90px 0px 0px 90px;
+}
 
 /*# sourceMappingURL=style.css.map */
